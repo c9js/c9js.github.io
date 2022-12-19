@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/button.css">
+</head>
+<body class="hidden" onClick="Main.focus()">
+    <table>
+        <tr>
+            <th></th>
+            <td align="center">
+                <div id="editor"></div>
+                <div class="buttons">
+                    <div id="notification" class="hidden">
+                        <div class="notification">Ссылка скопирована в буфер обмена!</div>
+                        <button class="button-23" role="button" onClick="Main.close()">Закрыть</button>
+                    </div>
+                    <div id="copy">
+                        <button class="button-23" role="button" onClick="Main.copy()">Сохранить</button>
+                    </div>
+                </div>
+                <div id="console"></div>
+            </td>
+            <th></th>
+        </tr>
+    </table>
+<script src="assets/assets.js" type="text/javascript" charset="utf-8"></script>
+<script>
+// Список файлов
+    new Assets(
+        'assets/main.js',
+        'assets/moex.js',
+        'assets/table.js',
+        'assets/shorts.js',
+        'assets/editor.js',
+        'assets/columns.js',
+        'https://cdn.jsdelivr.net/npm/ace-builds@1.36.5/src-noconflict/ace.js'
+    );
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.hidden {position:absolute !important; top:-10000px !important; left:-10000px !important; right:auto !important; bottom:auto !important;}
+html, body {display:grid; height:100%; margin:0; background:#020;}
+th {width:50%;}
+.buttons {text-align:center; white-space: nowrap;}
+.buttons {padding-top:10px;}
+td1 {border:1px solid #000;}
+#editor {font-size:24px;}
+.notification {margin-bottom:10px; padding:10px; border-radius:10px; color:#FFF; font-weight:bold; background:#484;}
