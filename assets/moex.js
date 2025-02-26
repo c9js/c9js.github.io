@@ -179,7 +179,7 @@ class MOEX {
   └────────────────────────────┘*/
     static async request(tickers = []) {
         let ticker = tickers.length == 1 ? tickers[0] : '';
-        return await fetch(this.url.join(ticker)).then(res => res.json());
+        return await fetch(this.url.join(ticker), {cache:'no-store'}).then(res => res.json());
     }
     
 /*┌─────────────────────────────────────────────────────────────────┐

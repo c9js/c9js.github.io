@@ -1,12 +1,6 @@
 /*────────────────────────────────────────────────────────────────────────────────────────────────*/
 
 window.addEventListener('load', () => {
-// Выводит сообщение в консоль
-    Object.defineProperties(window,{__:{set:alert},_:{set(v) {
-        let e = document.getElementById('console');
-        e.innerHTML = [JSON.stringify(v), '<hr>', e.innerHTML].join('');
-    }}});
-    
 // Создаем редактор
     Main.editor = new Editor('editor', Main.onready, Main.onchange, [
         'LKOH    0',
