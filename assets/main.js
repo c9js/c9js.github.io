@@ -9,9 +9,12 @@ window.addEventListener('load', () => {
         'PHOR    0',
         'MGNT    1',
         'MOEX   10',
-        'MTSS   10',
         'IRAO 1000',
         'GCHE    0',
+        'HEAD    0',
+        'MDMG    0',
+        'HNFG    0',
+        'DELI    0',
         'RUBB 3500'
     ].join('\n'));
 });

@@ -34,7 +34,7 @@ class Assets {
             
         // Загружем js-скрипт
             if (typeof file == 'string') {
-                let version = '0.0.0';
+                let version = '0.0.2';
                 if (window.location.hostname == 'localhost') {
                     version = new Date().getTime();
                 }
