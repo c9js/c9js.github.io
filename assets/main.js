@@ -3,19 +3,20 @@
 window.addEventListener('load', () => {
 // Создаем редактор
     Main.editor = new Editor('editor', Main.onready, Main.onchange, [
-        'LKOH    0',
-        'SBER   10',
-        'NVTK    3',
-        'PHOR    0',
-        'MGNT    1',
-        'MOEX   10',
-        'IRAO 1000',
-        'GCHE    0',
-        'HEAD    0',
-        'MDMG    0',
-        'HNFG    0',
-        'DELI    0',
-        'RUBB 3500'
+        'LKOH      1',
+        'SBER      1',
+        'NVTK      1',
+        'PHOR      1',
+        'MGNT      1',
+        'MOEX     10',
+        'IRAO    100',
+        'GCHE      1',
+        'HEAD      1',
+        'MDMG      1',
+        'HNFG      1',
+        'DELI      1',
+        'WTCM      1',
+        'RUBB 100000'
     ].join('\n'));
 });
 
